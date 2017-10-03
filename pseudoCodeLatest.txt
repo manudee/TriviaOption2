@@ -1,0 +1,28 @@
+1. On page load, click Start Game button
+2. On Game Start
+	1. Start the timer for current Question
+	2. Create Question/Current Question
+	3. Create answer divs for current question
+	4. Capture user click on answer divs
+		a. Call a function to calculate stats
+		If answer clicked == correct ans, correctAns++
+		flag correct = true;
+		else if (!ans || timerUp) , noAnswer++ showResults(correct,noans, incorrect)
+		flag noans = true
+		else IncorrectAns++
+		flag incorr = true
+
+
+
+		b. ShowResult(correct, noAns, incorrect)
+		if(correct)
+			alert("Yes you are correct")
+		else if(noAns)
+			alert("Sorry you did not answer")
+		else if(incorrect)
+			alert("You did not answer Correctly")
+			alert("Correct ans was")
+
+
+		c. Call a timer to start NextQuestion
+			3 secs after
